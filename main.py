@@ -62,5 +62,5 @@ for member in members:
     # writing rows
     csv_writer.writerow([name, address, tel, mail, website])
 
-# closing csv file
+# closing the csv file
 csv_file.close()
